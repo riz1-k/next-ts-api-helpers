@@ -1,15 +1,15 @@
 {
   "name": "next-ts-api-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple tool that helps in type-safe handling for NextJS API",
-  "main": "app.ts",
+  "main": "src/app.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "ts-node src/app.ts",
     "build": "tsc",
-    "dev": "ts-node app.ts"
+    "dev": "ts-node src/app.ts"
   },
   "repository": {
     "type": "git",
