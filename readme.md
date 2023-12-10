@@ -35,26 +35,6 @@ yarn add next-zod-api
 
 - **Type Utilities:** Defines utility types such as `Infer<T>`, `UnwrapPromise<T>`, and `WithoutNextResponse<T>` for enhanced type safety.
 
-## `handleRequest` Function
-
-### Signature
-
-```typescript
-function handleRequest<T, BodySchema extends ZodTypeAny | undefined, QuerySchema extends ZodTypeAny | undefined, ParamSchema extends ZodTypeAny | undefined>({
-  handler,
-  use,
-  body,
-  query,
-  params,
-}: {
-  use?: Middleware | Middleware[];
-  body?: BodySchema;
-  query?: QuerySchema;
-  params?: ParamSchema;
-  handler: (data: ApiOptions<BodySchema, QuerySchema, ParamSchema>) => Promise<T>;
-}): (req: NextRequest, { params?: Record<string, unknown> }) => Promise<NextResponse>;
-```
-
 ### Usage
 
 ```typescript
