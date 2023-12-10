@@ -136,3 +136,5 @@ export async function getBody(req: NextRequest) {
   const body = await req.json();
   return body;
 }
+
+console.log("Hello World");

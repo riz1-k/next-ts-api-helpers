@@ -74,6 +74,7 @@ export default handleRequest({
 });
 ```
 
+<!--
 ## Type Utilities
 
 ### `Infer<T>` Type
@@ -98,7 +99,7 @@ type UnwrapPromise<T> = T extends Promise<infer U> ? U : T;
 type WithoutNextResponse<T> = T extends NextResponse<infer U> ? U : T;
 ```
 
-- Removes the `NextResponse` wrapper from a type.
+- Removes the `NextResponse` wrapper from a type. -->
 
 ## Additional Utilities
 

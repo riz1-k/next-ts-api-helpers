@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple tool that helps in type-safe handling for NextJS API",
   "main": "app.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "ts-node app.ts",
     "build": "tsc",
