@@ -1,6 +1,6 @@
 {
   "name": "next-ts-api-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tool that helps in type-safe handling for NextJS API",
   "main": "app.ts",
   "publishConfig": {
