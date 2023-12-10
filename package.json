@@ -1,0 +1,37 @@
+{
+  "name": "next-ts-api-helpers",
+  "version": "1.0.0",
+  "description": "Simple tool that helps in type-safe handling for NextJS API",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "build": "tsc",
+    "dev": "ts-node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riz1-k/next-ts-api.git"
+  },
+  "keywords": [
+    "next",
+    "typescript",
+    "ts",
+    "nodejs",
+    "api",
+    "zod"
+  ],
+  "author": "riz1-k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riz1-k/next-ts-api/issues"
+  },
+  "homepage": "https://github.com/riz1-k/next-ts-api#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "zod": "^3.22.4"
+  }
+}
