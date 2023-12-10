@@ -33,8 +33,6 @@ yarn add next-zod-api
 
 - **Error Handling:** Custom error responses for different types of errors, including `NextApiError` and `ZodError`.
 
-- **Type Utilities:** Defines utility types such as `Infer<T>`, `UnwrapPromise<T>`, and `WithoutNextResponse<T>` for enhanced type safety.
-
 ### Usage
 
 ```typescript
