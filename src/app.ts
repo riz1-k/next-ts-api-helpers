@@ -25,7 +25,7 @@ type ApiOptions<
     ? { query: Infer<ApiSchema<QuerySchema>> }
     : {}) &
   (ParamSchema extends ZodTypeAny
-    ? { query: Infer<ApiSchema<ParamSchema>> }
+    ? { param: Infer<ApiSchema<ParamSchema>> }
     : {});
 
 type Middleware = (req: NextRequest) => unknown;
